@@ -1,0 +1,877 @@
+.shopping_btn {
+    float: left;
+    width: 25%;
+    text-align: center;
+    font-size: 18px;
+    padding: 3px 0;
+    color: #fff;
+    border-right: 1px solid #ffffff14;
+}
+
+.shopping_btn i {
+    color: #fff;
+}
+
+.shopping_btn a:last-child {
+    font-size: 11px;
+    display: block;
+    color: #fff;
+    font-weight: 300;
+    margin-top: -3px;
+}
+
+
+/* Hot deals*/
+
+.outerWrapper {
+    text-align: left;
+    position: relative;
+    margin: 15px auto 25px auto;
+    width: 100%;
+}
+
+.left-nav-btn,
+.right-nav-btn {
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    top: 80px;
+    cursor: pointer;
+    opacity: 1;
+    background: transparent url(../images/arrows.png) top left no-repeat;
+    -webkit-transition: opacity 0.2s linear;
+    -moz-transition: opacity 0.2s linear;
+    -o-transition: opacity 0.2s linear;
+    transition: opacity 0.2s linear;
+}
+
+.left-nav-btn {
+    left: -70px;
+    top: 120px;
+}
+
+.right-nav-btn {
+    right: -70px;
+    background-position: top right;
+    top: 120px;
+}
+
+.left-nav-btn:hover,
+.right-nav-btn:hover {
+    opacity: 1;
+}
+
+.vert.outerWrapper {
+    margin: 50px auto 60px auto;
+    width: 204px;
+    height: 456px;
+}
+
+.vert .item {
+    float: left;
+    margin-bottom: 48px;
+    width: 162px;
+}
+
+.vert .left-nav-btn,
+.vert .right-nav-btn {
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    cursor: pointer;
+    left: 82px;
+    background: transparent url('../images/arrows_vert.html') top left no-repeat;
+}
+
+.vert .left-nav-btn {
+    top: -60px;
+}
+
+.vert .right-nav-btn {
+    top: auto;
+    bottom: -60px;
+    background-position: bottom left;
+}
+
+.leftWrapper {
+    width: 48%;
+    float: left;
+}
+
+.rightWrapper {
+    width: 48%;
+    float: right;
+}
+
+.leftWrapper h2,
+.rightWrapper h2 {
+    width: 100%;
+    text-align: center;
+}
+
+/ Pager / .pager {
+    line-height: 100px;
+    text-align: center;
+}
+
+.pager>span {
+    cursor: pointer;
+    border-radius: 8px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: #DDDDDD;
+    border: 1px solid #B3B3B3;
+    margin: 0 4px;
+    overflow: none;
+}
+
+.pager>span.active {
+    background: #B3B3B3;
+}
+
+.pager>span>span {
+    display: none;
+}
+
+#counter {
+    margin-top: -30px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+div#carosel .products-5x .product {
+    width: 196px;
+}
+
+div#carosel .mask {
+    height: auto !important;
+}
+
+section#carosel_area {
+    background: rgb(255, 235, 219);
+    margin-bottom: 40px;
+}
+
+section#carosel_area .products-area {
+    padding-bottom: 5px;
+}
+
+div#carosel .buttons {
+    display: none;
+}
+
+div#carosel .product article .price {
+    margin-top: 0px;
+    margin-bottom: -8px;
+}
+
+div#carosel span.discount_rate {
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    background: #850c4f;
+    border-radius: 100%;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 8px;
+}
+
+span.discount_rate {
+    text-decoration: none !important;
+    width: 40px;
+    height: 40px;
+    background: #850c4f;
+    border-radius: 100%;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    font-size: 14px;
+    color: #fff !important;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 8px;
+}
+
+img.hot_details_image {
+    height: 40px;
+}
+
+.product article .price span {
+    font-weight: 400;
+    color: #00000087;
+}
+
+div#carosel .product article .product-hover {
+    height: 76% !important;
+    background: #fff0;
+}
+
+span.old_price_tag {
+    text-decoration: line-through;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+span.price.change_price {
+    margin-bottom: 11px;
+    display: block;
+}
+
+div#carosel .product article .thumb {
+    height: 155px;
+}
+
+.product article .thumb img {
+    /* hiii */
+}
+
+div#carosel:nth-child(1) {
+    margin-bottom: -42px;
+}
+
+@media only screen and (max-width: 400px) {
+    div#carosel .products-5x .product {
+        width: 105px;
+    }
+    div#carosel span.cur-price {
+        display: none;
+    }
+    div#carosel .product article .thumb {
+        height: 70px;
+    }
+    div#carosel .product article .price {
+        margin-top: 2px;
+        margin-bottom: -10px;
+    }
+    .product article .price {
+        font-size: 14px;
+    }
+    .left-nav-btn {
+        left: -10px;
+        top: 28px;
+    }
+    .right-nav-btn {
+        right: -25px;
+        background-position: top right;
+        top: 28px;
+    }
+    div#carosel span.discount_rate {
+        text-decoration: none;
+        width: 30px;
+        height: 30px;
+        background: #850c4f;
+        border-radius: 100%;
+        position: absolute;
+        top: 3px;
+        right: 4px;
+        font-size: 12px;
+        color: #fff;
+        font-weight: 400;
+        text-align: center;
+        padding-top: 5px;
+    }
+}
+
+
+/* Hot Deals end */
+
+
+/* Chanages for implementing product variation start*/
+
+.product article .product-hover .buttons {
+    display: block;
+    width: 100%;
+}
+
+.product article .tag {
+    font-size: 12px;
+    color: #000000b3;
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    margin-bottom: 0px;
+}
+
+
+/*Chanages for implementing product variation end */
+
+
+/** Top Subcategory **/
+
+.subcategory2-li {
+    margin-left: 8px;
+}
+
+
+/** Top Subcategory **/
+
+
+/** Navbar Styles **/
+
+.search-button {
+    /* border: none; */
+    cursor: pointer;
+}
+
+
+/** Navbar Styles **/
+
+
+/*css for product search*/
+
+.suggestion-area,
+.suggestion-area1 {
+    position: absolute;
+    width: 100%;
+    background-color: #fff;
+    z-index: 11;
+    display: block;
+    height: auto;
+    margin-top: 40px;
+}
+
+.suggestion-area2 {
+    position: absolute;
+    width: 100%;
+    background-color: #ffe066;
+    z-index: 11;
+    display: block;
+    height: auto;
+    margin-top: 35px;
+}
+
+.suggestion-area li img {
+    height: 40px;
+}
+
+@media only screen and (max-width: 400px) {
+    .suggestion-area,
+    .suggestion-area1,
+    .suggestion-area2 {
+        position: absolute;
+        width: 100%;
+        background-color: #fff;
+        z-index: 11;
+        display: block;
+        height: auto;
+        top: 51px;
+    }
+}
+
+.suggestion-area li {
+    border-bottom: 1px solid #00000017;
+}
+
+.suggestion-area ul,
+.suggestion-area1 ul,
+.suggestion-area2 ul {
+    margin: 0;
+    padding: 0;
+}
+
+.suggestion-area li a,
+.suggestion-area1 li a,
+.suggestion-area2 li a {
+    text-decoration: none;
+}
+
+.suggestion-area .search-item,
+.suggestion-area1 .search-item,
+.suggestion-area2 .search-item {
+    background-color: #ffdb6d;
+    padding: 5px;
+    list-style: none;
+    overflow: hidden;
+}
+
+.suggestion-area .search-item .all-result,
+.suggestion-area1 .search-item .all-result,
+.suggestion-area2 .search-item .all-result {
+    text-align: center;
+    margin: 0;
+}
+
+.suggestion-area .search-item .all-result a,
+.suggestion-area1 .search-item .all-result a,
+.suggestion-area2 .search-item .all-result a {
+    border: 1px solid #ddd;
+    padding: 2px 10px;
+    border-radius: 25px;
+}
+
+.suggestion-area .search-item .all-result a:hover,
+.suggestion-area1 .search-item .all-result a:hover,
+.suggestion-area2 .search-item .all-result a:hover {
+    background-color: #efefef;
+}
+
+.suggestion-area .search-item:hover,
+.suggestion-area1 .search-item:hover,
+.suggestion-area2 .search-item:hover {
+    background-color: #ffcb0061;
+}
+
+.suggestion-area .search-item .title-name,
+.suggestion-area1 .search-item .title-name,
+.suggestion-area2 .search-item .title-name {
+    /* display: inline-block; */
+    margin-left: 8px;
+}
+
+.suggestion-area .search-item .title-name .subject-name,
+.suggestion-area1 .search-item .title-name .subject-name {
+    color: #848383;
+    margin-top: 5px;
+}
+
+.suggestion-area .search-item .title-name p,
+.suggestion-area1 .search-item .title-name p,
+.suggestion-area2 .search-item .title-name p {
+    margin: 0;
+}
+
+.inlinecheckbox {
+    display: inline-block;
+}
+
+
+/** Subcategory Product Page **/
+
+.subcategory-items {
+    border: 1px solid #ced4da;
+    padding: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+    background: #eee;
+}
+
+.subcategory-items img {
+    width: 100%;
+    padding: 0px;
+}
+
+
+/** Subcategory Product Page **/
+
+
+/** Order table design **/
+
+.order-table thead {
+    background: #f2f2f2;
+    border-bottom: 2px solid #ced4da;
+}
+
+.order-table thead th {
+    /*border: 1px solid #ced4da;*/
+}
+
+.bg-light-gray {
+    background: #f2f2f2;
+}
+
+
+/** Order table design **/
+
+
+/** Cart table **/
+
+#checkout-items tr,
+#cart-items tr {
+    border-bottom: 1px solid #8080801f;
+}
+
+#checkout-items a.title,
+#cart-items a.title {
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+#checkout-items thead tr,
+#cart-items thead tr {
+    background: #f2f2f2;
+}
+
+
+/** Cart table **/
+
+.filters .card .card-body #slider-values .slider-value-0 input,
+.filters .card .card-body #slider-values .slider-value-1 input {
+    width: 60px;
+}
+
+
+/** Checkbox **/
+
+.radio-price-set {
+    display: none;
+}
+
+.radio_style {
+    display: inline-block;
+    padding: 0px 0px;
+    cursor: pointer;
+}
+
+
+/*
+ * With how I decided to build this, the position: relative is super important.
+ * We're going to position a pseudo element within this element(As it is the containing box)
+ */
+
+.radio_style span {
+    position: relative;
+    line-height: 10px;
+}
+
+
+/*
+ * Because we're using pseudo elements, a content property is required to make them appear.
+ */
+
+.radio_style span:before,
+.radio_style span:after {
+    content: '';
+}
+
+.radio_style span:before {
+    border: 1px solid #596157;
+    width: 15px;
+    height: 14px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: top
+}
+
+.radio_style span:after {
+    background: #ff6738;
+    width: 15px;
+    height: 12px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: 300ms;
+    opacity: 0
+}
+
+.radio_style input:checked+span:after {
+    opacity: 1;
+}
+
+
+/** Checkbox **/
+
+.hidden {
+    display: none;
+}
+
+.main_total_inactive {
+    background: #ff00001f;
+    text-decoration: line-through;
+}
+
+.thanks-purchase {
+    background: #c6ffce40;
+    padding: 50px 15px 15px 15px;
+    text-align: center;
+    border-bottom: 5px solid #bbfec4;
+}
+
+.thanks-purchase h2 {
+    color: #188c06;
+}
+
+.thanks-purchase h4 {
+    color: #db6843;
+    margin-bottom: 20px;
+}
+
+.order-details {
+    border: 1px solid #80808029;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.order-details h4 {
+    /**border-left: 2px solid #298c06; **/
+    padding-left: 10px;
+}
+
+.btn-order {
+    color: #621717;
+    background: #f4da82;
+    border-color: transparent;
+}
+
+.btn-order:hover {
+    background: #de4a2c;
+    color: #fff;
+    border-color: transparent;
+}
+
+.cartadd {
+    cursor: pointer;
+}
+
+.product-summary .price {
+    color: #e81c7f;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.off-text {
+    font-size: 16px;
+    color: gray;
+}
+
+.cart-product-detail img {
+    width: 50px !important;
+}
+
+.discount-percent {
+    color: #199216;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.availbility {
+    margin-top: 20px;
+}
+
+
+/** Promo Price **/
+
+.old-price {
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: gray;
+    font-size: 12px;
+}
+
+.old-price .discount-percent {
+    font-weight: 500;
+    color: #f57224;
+}
+
+.product-discount-top2 {
+    float: right;
+    width: 45px;
+    background: #f02424;
+    color: #FFF;
+    height: 45px;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    z-index: 2000;
+    border-radius: 0px 0px 14px 103px;
+    margin-top: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.product-discount-top {
+    width: 22%;
+    float: right;
+    background: #E64723;
+    padding: 3px 45px 15px 15px;
+    border-radius: 0px 0px 0px 100%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 0px;
+    right: 0px;
+    z-index: 2000;
+    height: 55px;
+}
+
+.product-discount-top p {
+    margin-top: 6px;
+    margin-left: 3px;
+    font-size: 18px;
+}
+
+
+/** Promo Price **/
+
+
+/** Product Show **/
+
+#exzoom {
+    width: 400px;
+    /*height: 400px;*/
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.add-wishlist {
+    cursor: pointer;
+}
+
+
+/** Product Show **/
+
+.mycard {
+    width: 210px !important;
+    text-align: center;
+    background-color: #7ec5ff;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 3px;
+    margin-bottom: 10px
+}
+
+#carosel_area {
+    margin-top: 40px;
+}
+
+
+/* Image Zoom */
+
+.show1 {
+    width: 400px;
+    height: 400px;
+}
+
+#show-img {
+    width: 400px;
+    height: 400px;
+}
+
+.small-img {
+    width: 350px;
+    height: 70px;
+    margin-top: 10px;
+    position: relative;
+    left: 25px;
+}
+
+.small-img .icon-left,
+.small-img .icon-right {
+    width: 12px;
+    height: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+}
+
+.small-img .icon-left {
+    transform: rotate(180deg)
+}
+
+.small-img .icon-right {
+    right: 0;
+}
+
+.small-img .icon-left:hover,
+.small-img .icon-right:hover {
+    opacity: .5;
+}
+
+.small-container {
+    width: 310px;
+    height: 70px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.small-container div {
+    width: 800%;
+    position: relative;
+}
+
+.small-container .show-small-img {
+    width: 70px;
+    height: 70px;
+    margin-right: 6px;
+    cursor: pointer;
+    float: left;
+}
+
+.small-container .show-small-img:last-of-type {
+    margin-right: 0;
+}
+
+show {
+    width: 400px;
+    height: 400px;
+}
+
+.small-img {
+    width: 350px;
+    height: 70px;
+    margin-top: 10px;
+    position: relative;
+    left: 25px;
+}
+
+.small-img .icon-left,
+.small-img .icon-right {
+    width: 12px;
+    height: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+}
+
+.small-img .icon-left {
+    transform: rotate(180deg)
+}
+
+.small-img .icon-right {
+    right: 0;
+}
+
+.small-img .icon-left:hover,
+.small-img .icon-right:hover {
+    opacity: .5;
+}
+
+.small-container {
+    width: 310px;
+    height: 70px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.small-container div {
+    width: 800%;
+    position: relative;
+}
+
+.small-container .show-small-img {
+    width: 70px;
+    height: 70px;
+    margin-right: 6px;
+    cursor: pointer;
+    float: left;
+}
+
+.detail-area .show1 div {
+    z-index: 999999999999 !important;
+}
+
+.small-container .show-small-img:last-of-type {
+    margin-right: 0;
+}
+
+
+/* Image Zoom */
